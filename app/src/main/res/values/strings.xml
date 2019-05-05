@@ -20,4 +20,8 @@
     <string name="button_plus_and_minus">+ &amp; −</string>
     <string name="button_multiply_and_divide">× &amp; ÷</string>
     <string name="button_all_operations">TEST ALL OPERATIONS</string>
+    <string name="number_plus_number">%d + %d</string>
+    <string name="number_minus_number">%d − %d</string>
+    <string name="number_multiply_number">%d × %d</string>
+    <string name="number_divide_number">%d ÷ %d</string>
 </resources>

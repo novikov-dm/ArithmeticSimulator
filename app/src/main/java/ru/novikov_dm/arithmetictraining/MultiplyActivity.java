@@ -43,10 +43,10 @@ public class MultiplyActivity  extends AppCompatActivity  {
             score = savedInstanceState.getInt(KEY_SCORE);
             level = savedInstanceState.getInt(KEY_LEVEL);
             mTextViewLevel.setText("Level: " + level);
-            mTextViewQuestion.setText(a + " * " + b + " = ");
+            mTextViewQuestion.setText(a + " × " + b + " = ");
         }else{
             mTextViewLevel.setText("Level: " + level);
-            mTextViewQuestion.setText(a + " * " + b + " = ");
+            mTextViewQuestion.setText(a + " × " + b + " = ");
         }
 
     }
@@ -172,7 +172,7 @@ public class MultiplyActivity  extends AppCompatActivity  {
             mTextViewAnswer.setHint("?");
             a = (int) (Math.random() * (max+1));
             b = (int) (Math.random() * (10+1));
-            mTextViewQuestion.setText(a + " * " + b + " = ");
+            mTextViewQuestion.setText(a + " × " + b + " = ");
             score++;
             if (score == 5){
                 level++;

@@ -47,19 +47,19 @@ public class MultiplyAndDivideActivity  extends AppCompatActivity  {
             operation = savedInstanceState.getInt(KEY_OPERATION);
             mTextViewLevel.setText("Level: " + level);
             if (operation == 0) {
-                mTextViewQuestion.setText(a + " * " + b + " = ");
+                mTextViewQuestion.setText(a + " × " + b + " = ");
             }
             else {
-                mTextViewQuestion.setText(a + " : " + b + " = ");
+                mTextViewQuestion.setText(a + " ÷ " + b + " = ");
             }
         }else{
             mTextViewLevel.setText("Level: " + level);
             if (operation == 0) {
-                mTextViewQuestion.setText(a + " * " + b + " = ");
+                mTextViewQuestion.setText(a + " × " + b + " = ");
             }
             else {
                 a = a * b;
-                mTextViewQuestion.setText(a + " : " + b + " = ");
+                mTextViewQuestion.setText(a + " ÷ " + b + " = ");
             }
         }
     }
@@ -194,11 +194,11 @@ public class MultiplyAndDivideActivity  extends AppCompatActivity  {
             a = (int) (Math.random() * (max+1));
             b = (int) (Math.random() * (10)+1);
             if (operation == 0) {
-                mTextViewQuestion.setText(a + " * " + b + " = ");
+                mTextViewQuestion.setText(a + " × " + b + " = ");
             }
             if (operation == 1) {
                 a = a * b;
-                mTextViewQuestion.setText(a + " : " + b + " = ");
+                mTextViewQuestion.setText(a + " ÷ " + b + " = ");
             }
             score++;
             if (score == 5){
